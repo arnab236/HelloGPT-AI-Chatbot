@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const API_KEY = 'AIzaSyC3220hbQ5K05SVfjOaAj6YG1n3Gd1j3Kg'; // Add your Gemini API key here
+const API_KEY = 'Gemini API Key'; // Add your Gemini API key here
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export async function getChatResponse(message: string): Promise<string> {

@@ -217,7 +217,7 @@ Error generating stack: `+o.message+`
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */class Np{constructor(t){this.apiKey=t}getGenerativeModel(t,n){if(!t.model)throw new Jn("Must provide a model name. Example: genai.getGenerativeModel({ model: 'my-model-name' })");return new _p(this.apiKey,t,n)}}const Tp="AIzaSyC3220hbQ5K05SVfjOaAj6YG1n3Gd1j3Kg",Pp=new Np(Tp);async function Rp(e){try{return(await(await Pp.getGenerativeModel({model:"gemini-pro"}).generateContent(e)).response).text()}catch(t){return console.error("Error getting chat response:",t),"Sorry, I encountered an error. Please try again."}}/**
+ */class Np{constructor(t){this.apiKey=t}getGenerativeModel(t,n){if(!t.model)throw new Jn("Must provide a model name. Example: genai.getGenerativeModel({ model: 'my-model-name' })");return new _p(this.apiKey,t,n)}}const Tp="YOUR API KEY",Pp=new Np(Tp);async function Rp(e){try{return(await(await Pp.getGenerativeModel({model:"gemini-pro"}).generateContent(e)).response).text()}catch(t){return console.error("Error getting chat response:",t),"Sorry, I encountered an error. Please try again."}}/**
  * @license lucide-react v0.344.0 - ISC
  *
  * This source code is licensed under the ISC license.

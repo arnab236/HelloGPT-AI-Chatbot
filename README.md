@@ -6,7 +6,7 @@ An **AI Voice Assistant Chatbot** built using the **Gemini API**—designed to b
 
 ## &#x20;Live Demo
 
-Explore the chatbot instantly: [HelloGPT](ai-voice-assitant-chatbot-gemini.vercel.app/)
+Explore the chatbot instantly: [HelloGPT](https://ai-voice-assitant-chatbot-gemini.vercel.app/)
 
 ---
 

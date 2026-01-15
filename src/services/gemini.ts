@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const API_KEY=PROCESS.ENV.GEMINI_API_KEY;
+const API_KEY=PROCESS.ENV.API_KEY;
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export async function getChatResponse(message: string): Promise<string> {
